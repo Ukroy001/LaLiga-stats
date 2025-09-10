@@ -35,17 +35,18 @@ The project is structured into separate modules for a **clean and organized code
   │── upcoming_fixtures.py # Fetch upcoming fixtures
   │── goals.py # Retrieve goals and scorers
   │── tables.py # Display league standings
-  │── main.py # Run and test all modules together
-
+  │── main.py # Run and test all modules
 
 ---
-
+```
 ## 🔑 API Key
+```
 This project requires an **API key** from [Football-Data.org](https://api.football-data.org/v4).  
 - Sign up on the website and get your key.  
 - Replace `"YOUR_API_KEY_HERE"` inside the scripts where required.  
 
 ---
+```
 
 ## ▶️ Usage
 1. Clone this repository:
@@ -53,8 +54,10 @@ This project requires an **API key** from [Football-Data.org](https://api.footba
    git clone https://github.com/Ukroy001/la-liga-stats.git
    cd la-liga-stats
 2. Install dependecies:
+   ```bash
    pip install requests
 3. Run the module:
+```bash
 python all_matches.py
 python weekly_matches.py
 python upcoming_fixtures.py
