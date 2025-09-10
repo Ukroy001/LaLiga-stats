@@ -35,7 +35,7 @@ The project is structured into separate modules for a **clean and organized code
   │── upcoming_fixtures.py # Fetch upcoming fixtures
   │── goals.py # Retrieve goals and scorers
   │── tables.py # Display league standings
-  │── main.py # Run and test all modules
+  
 
 ---
 ```
